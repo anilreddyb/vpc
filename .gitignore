@@ -1,0 +1,30 @@
+# ignore root repo terraform files
+.terraform/
+*.tfstate
+*.tfstate.*
+/*.auto.tfvars
+/*.tfvars
+
+# ignore modules
+vendor/
+vendor/modules
+vendor/modules/*
+
+# other files
+.idea/
+TODO
+**/**/TODO
+
+# local files
+.local-init
+./.local-init
+.local*
+
+# kubernetes files
+.kube/
+
+# logs
+*.log
+.terraform.lock.hcl
+
+.DS_Store
