@@ -34,26 +34,3 @@ variable "cluster_name" {
 variable "additional_tags" {
 
 }
-# variable "aws_region" {
-
-# }
-# variable "k8_version" {}
-# variable "node_sg_rules" {
-
-# }
-# variable "cluster_sg_rules" {
-
-# }
-# variable "node_count" {}
-# variable "image_id" {}
-# variable "instance_type" {}
-# variable "sg_id" {}
-# variable "iam_instance_profile" {}
-# variable "key_name" {}
-# variable "subnet_id" {}
-# # variable "B64_CLUSTER_CA" {}
-# # variable "API_SERVER_URL" {}
-# # variable "CLUSTER_NAME" {}
-# # variable "kms_key_id" {}
-# variable "root_block_volume" {}
-# # variable "EXTRA_ARG" {}
